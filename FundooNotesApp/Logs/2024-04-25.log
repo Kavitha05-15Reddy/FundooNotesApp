@@ -1,0 +1,952 @@
+2024-04-25 09:38:43.3832 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 09:38:45.1231 ${level} Now listening on: https://localhost:7153
+2024-04-25 09:38:45.1231 ${level} Now listening on: http://localhost:5082
+2024-04-25 09:38:45.1231 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 09:38:45.1231 ${level} Hosting environment: Development
+2024-04-25 09:38:45.1231 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 09:38:45.7082 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 09:38:45.9715 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 265.0742ms
+2024-04-25 09:38:45.9715 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 09:38:46.0490 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 73.3649ms
+2024-04-25 09:38:46.0678 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 09:38:46.0678 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 09:38:46.0678 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 09:38:46.0678 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 09:38:46.0678 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 09:38:46.0678 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 4.8806ms
+2024-04-25 09:38:46.0955 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 09:38:46.0955 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 09:38:46.0977 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 29.5548ms
+2024-04-25 09:38:46.0977 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 29.9135ms
+2024-04-25 09:38:46.1151 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 09:38:46.1151 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 47.9957ms
+2024-04-25 09:38:46.1295 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.4684ms
+2024-04-25 09:38:46.2921 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 09:38:46.4183 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.1677ms
+2024-04-25 09:39:12.1063 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Customer/GetAllDetails - -
+2024-04-25 09:39:12.1705 ${level} Executing endpoint 'FundooNotesApp.Controllers.CustomerController.RetrieveData (FundooNotesApp)'
+2024-04-25 09:39:12.1924 ${level} Route matched with {action = "RetrieveData", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RetrieveData() on controller FundooNotesApp.Controllers.CustomerController (FundooNotesApp).
+2024-04-25 09:39:13.6962 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 09:39:14.9487 ${level} Executed DbCommand (55ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CustomerId], [c].[City], [c].[CustomerName], [c].[Email], [c].[Password], [c].[Phone]
+FROM [CustomerTable] AS [c]
+2024-04-25 09:39:15.1930 ${level} System.Exception: Error Occured
+   at FundooNotesApp.Controllers.CustomerController.RetrieveData() in C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\Controllers\CustomerController.cs:line 63
+2024-04-25 09:39:15.2003 ${level} Executed action FundooNotesApp.Controllers.CustomerController.RetrieveData (FundooNotesApp) in 3003.2967ms
+2024-04-25 09:39:15.2003 ${level} Executed endpoint 'FundooNotesApp.Controllers.CustomerController.RetrieveData (FundooNotesApp)'
+2024-04-25 09:39:15.2003 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 09:39:15.2464 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Customer/GetAllDetails - - - 500 - text/plain;+charset=utf-8 3140.1054ms
+2024-04-25 09:43:22.2667 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 09:43:22.7247 ${level} Now listening on: https://localhost:7153
+2024-04-25 09:43:22.7247 ${level} Now listening on: http://localhost:5082
+2024-04-25 09:43:22.7247 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 09:43:22.7247 ${level} Hosting environment: Development
+2024-04-25 09:43:22.7247 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 09:43:23.4953 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 09:43:23.7408 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 247.4171ms
+2024-04-25 09:43:23.7465 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 09:43:23.8491 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 102.4456ms
+2024-04-25 09:43:23.8688 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 09:43:23.8688 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 09:43:23.8688 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 09:43:23.8688 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 09:43:23.8688 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 09:43:23.8688 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 5.3544ms
+2024-04-25 09:43:23.9103 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 09:43:23.9242 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 55.3530ms
+2024-04-25 09:43:23.9332 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 09:43:23.9566 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 87.5016ms
+2024-04-25 09:43:23.9566 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 89.4853ms
+2024-04-25 09:43:23.9878 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 09:43:23.9878 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 119.6050ms
+2024-04-25 09:43:24.2629 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 09:43:24.4642 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 201.2916ms
+2024-04-25 09:43:37.0724 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Customer/GetAllDetails - -
+2024-04-25 09:43:37.1314 ${level} Executing endpoint 'FundooNotesApp.Controllers.CustomerController.RetrieveData (FundooNotesApp)'
+2024-04-25 09:43:37.1505 ${level} Route matched with {action = "RetrieveData", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RetrieveData() on controller FundooNotesApp.Controllers.CustomerController (FundooNotesApp).
+2024-04-25 09:43:38.3817 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 09:43:40.1324 ${level} Executed DbCommand (54ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CustomerId], [c].[City], [c].[CustomerName], [c].[Email], [c].[Password], [c].[Phone]
+FROM [CustomerTable] AS [c]
+2024-04-25 09:43:40.2831 ${level} System.Exception: Error Occured
+   at FundooNotesApp.Controllers.CustomerController.RetrieveData() in C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\Controllers\CustomerController.cs:line 63
+2024-04-25 09:43:40.2831 ${level} Executed action FundooNotesApp.Controllers.CustomerController.RetrieveData (FundooNotesApp) in 3135.7221ms
+2024-04-25 09:43:40.2942 ${level} Executed endpoint 'FundooNotesApp.Controllers.CustomerController.RetrieveData (FundooNotesApp)'
+2024-04-25 09:43:40.2942 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 09:43:40.3468 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Customer/GetAllDetails - - - 500 - text/plain;+charset=utf-8 3274.2814ms
+2024-04-25 09:49:32.0270 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 09:49:32.4785 ${level} Now listening on: https://localhost:7153
+2024-04-25 09:49:32.4785 ${level} Now listening on: http://localhost:5082
+2024-04-25 09:49:32.4812 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 09:49:32.4812 ${level} Hosting environment: Development
+2024-04-25 09:49:32.4812 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 09:49:33.2763 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 09:49:33.4706 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 196.0603ms
+2024-04-25 09:49:33.4706 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 09:49:33.5692 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 94.2693ms
+2024-04-25 09:49:33.5929 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 09:49:33.5929 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 09:49:33.5929 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 09:49:33.5929 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 09:49:33.5929 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 09:49:33.5929 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 4.3528ms
+2024-04-25 09:49:33.6336 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 09:49:33.6336 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 09:49:33.6336 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 09:49:33.6374 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 44.0279ms
+2024-04-25 09:49:33.6374 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 44.1265ms
+2024-04-25 09:49:33.6374 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 44.4836ms
+2024-04-25 09:49:33.6593 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.9470ms
+2024-04-25 09:49:33.9218 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 09:49:34.0609 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.1444ms
+2024-04-25 09:49:59.1662 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 09:49:59.1662 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 4.3267ms
+2024-04-25 09:49:59.2037 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 09:49:59.2037 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 09:49:59.2037 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 09:49:59.2171 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 12.5592ms
+2024-04-25 09:49:59.2171 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 09:49:59.2171 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 15.0158ms
+2024-04-25 09:49:59.2171 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5846ms
+2024-04-25 09:49:59.3503 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 09:49:59.3847 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2024-04-25 09:49:59.3847 ${level} Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-25 09:49:59.3847 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 46.6016ms
+2024-04-25 09:49:59.3847 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 14.1815ms
+2024-04-25 09:50:42.0297 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 09:50:42.5442 ${level} Now listening on: https://localhost:7153
+2024-04-25 09:50:42.5454 ${level} Now listening on: http://localhost:5082
+2024-04-25 09:50:42.5454 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 09:50:42.5454 ${level} Hosting environment: Development
+2024-04-25 09:50:42.5454 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 09:50:43.1896 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 09:50:43.3812 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 193.9121ms
+2024-04-25 09:50:43.3939 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 09:50:43.4939 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 99.9497ms
+2024-04-25 09:50:43.5108 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 09:50:43.5108 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 09:50:43.5108 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 09:50:43.5108 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 09:50:43.5108 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 09:50:43.5108 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 4.0646ms
+2024-04-25 09:50:43.5519 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 09:50:43.5519 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 09:50:43.5519 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 09:50:43.5519 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 43.1452ms
+2024-04-25 09:50:43.5519 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 43.2798ms
+2024-04-25 09:50:43.5519 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 43.5803ms
+2024-04-25 09:50:43.5769 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.5462ms
+2024-04-25 09:50:43.8293 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 09:50:43.9833 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.9970ms
+2024-04-25 09:50:54.3744 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Customer/GetAllDetails - -
+2024-04-25 09:50:54.4181 ${level} Executing endpoint 'FundooNotesApp.Controllers.CustomerController.RetrieveData (FundooNotesApp)'
+2024-04-25 09:50:54.4181 ${level} Route matched with {action = "RetrieveData", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RetrieveData() on controller FundooNotesApp.Controllers.CustomerController (FundooNotesApp).
+2024-04-25 09:50:55.4718 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 09:50:56.2544 ${level} Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CustomerId], [c].[City], [c].[CustomerName], [c].[Email], [c].[Password], [c].[Phone]
+FROM [CustomerTable] AS [c]
+2024-04-25 09:50:56.3551 ${level} System.Exception: Error Occured
+   at FundooNotesApp.Controllers.CustomerController.RetrieveData() in C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\Controllers\CustomerController.cs:line 63
+2024-04-25 09:50:56.3551 ${level} Executed action FundooNotesApp.Controllers.CustomerController.RetrieveData (FundooNotesApp) in 1926.83ms
+2024-04-25 09:50:56.3551 ${level} Executed endpoint 'FundooNotesApp.Controllers.CustomerController.RetrieveData (FundooNotesApp)'
+2024-04-25 09:50:56.3551 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 09:50:56.3929 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Customer/GetAllDetails - - - 500 - text/plain;+charset=utf-8 2018.4957ms
+2024-04-25 12:04:20.0461 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 12:04:20.5958 ${level} Now listening on: https://localhost:7153
+2024-04-25 12:04:20.5958 ${level} Now listening on: http://localhost:5082
+2024-04-25 12:04:20.5958 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 12:04:20.5958 ${level} Hosting environment: Development
+2024-04-25 12:04:20.5958 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 12:04:21.4721 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 12:04:21.7497 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 278.7729ms
+2024-04-25 12:04:21.7497 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 12:04:21.8575 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 102.8771ms
+2024-04-25 12:04:21.8751 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 12:04:21.8751 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 12:04:21.8751 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 12:04:21.8751 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 12:04:21.8751 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 12:04:21.8751 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 5.6304ms
+2024-04-25 12:04:21.9200 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 12:04:21.9200 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 12:04:21.9200 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 48.6392ms
+2024-04-25 12:04:21.9200 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 49.1112ms
+2024-04-25 12:04:21.9359 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.2866ms
+2024-04-25 12:04:21.9359 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 12:04:21.9359 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 67.6545ms
+2024-04-25 12:04:22.1958 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 12:04:22.3364 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.5643ms
+2024-04-25 12:04:56.0504 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 12:04:56.1189 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:04:56.1571 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 12:04:56.4238 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 261.0955ms
+2024-04-25 12:04:56.4238 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:04:56.4306 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 12:04:56.5035 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 453.1477ms
+2024-04-25 12:12:38.7493 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 12:12:39.2797 ${level} Now listening on: https://localhost:7153
+2024-04-25 12:12:39.2797 ${level} Now listening on: http://localhost:5082
+2024-04-25 12:12:39.2797 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 12:12:39.2797 ${level} Hosting environment: Development
+2024-04-25 12:12:39.2797 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 12:12:39.9333 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 12:12:40.1191 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 186.8343ms
+2024-04-25 12:12:40.1237 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 12:12:40.2099 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 86.1487ms
+2024-04-25 12:12:40.2271 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 12:12:40.2271 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 12:12:40.2271 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 12:12:40.2271 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 12:12:40.2271 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 12:12:40.2302 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 2.8019ms
+2024-04-25 12:12:40.2302 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 12:12:40.2496 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 22.3125ms
+2024-04-25 12:12:40.2496 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 12:12:40.2496 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 12:12:40.2496 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 29.7393ms
+2024-04-25 12:12:40.2496 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 29.5988ms
+2024-04-25 12:12:40.2777 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.2471ms
+2024-04-25 12:12:40.4968 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 12:12:40.6413 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.4264ms
+2024-04-25 12:12:49.1407 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 12:12:49.2074 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:12:49.2336 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 12:12:51.1776 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 12:12:52.0629 ${level} Executed DbCommand (52ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 12:12:52.4259 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 3188.354ms
+2024-04-25 12:12:52.4259 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:12:52.4259 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 12:12:52.4937 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 3353.0274ms
+2024-04-25 12:17:02.2652 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 12:17:02.7465 ${level} Now listening on: https://localhost:7153
+2024-04-25 12:17:02.7465 ${level} Now listening on: http://localhost:5082
+2024-04-25 12:17:02.7465 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 12:17:02.7465 ${level} Hosting environment: Development
+2024-04-25 12:17:02.7465 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 12:17:03.3201 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 12:17:03.4791 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 160.4050ms
+2024-04-25 12:17:03.4791 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 12:17:03.5544 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 67.1202ms
+2024-04-25 12:17:03.5843 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 12:17:03.5843 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 12:17:03.5843 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 12:17:03.5843 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 12:17:03.5843 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 12:17:03.5879 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.0942ms
+2024-04-25 12:17:03.5879 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 12:17:03.5879 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 12:17:03.6143 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 12:17:03.6143 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 29.9291ms
+2024-04-25 12:17:03.6143 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 30.1016ms
+2024-04-25 12:17:03.6143 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 30.5001ms
+2024-04-25 12:17:03.6399 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.9286ms
+2024-04-25 12:17:03.8637 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 12:17:03.9902 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.4710ms
+2024-04-25 12:17:18.4979 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 12:17:18.5533 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:17:18.5768 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 12:17:19.8887 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 12:17:20.6036 ${level} Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 12:17:20.8642 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 2283.5706ms
+2024-04-25 12:17:20.8642 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:17:20.8692 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 12:17:20.9173 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 2419.4427ms
+2024-04-25 12:18:20.8417 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 12:18:21.3004 ${level} Now listening on: https://localhost:7153
+2024-04-25 12:18:21.3004 ${level} Now listening on: http://localhost:5082
+2024-04-25 12:18:21.3004 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 12:18:21.3004 ${level} Hosting environment: Development
+2024-04-25 12:18:21.3004 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 12:18:21.8284 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 12:18:22.1183 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 289.9052ms
+2024-04-25 12:18:22.1576 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 12:18:22.1576 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 12:18:22.1576 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 12:18:22.1614 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.7549ms
+2024-04-25 12:18:22.1770 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 12:18:22.1770 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 20.5678ms
+2024-04-25 12:18:22.2406 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.9344ms
+2024-04-25 12:18:22.3444 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 12:18:22.3610 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2024-04-25 12:18:22.3610 ${level} Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-25 12:18:22.3610 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 3.4515ms
+2024-04-25 12:18:22.4694 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.9718ms
+2024-04-25 12:18:28.9869 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 12:18:28.9936 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 6.5446ms
+2024-04-25 12:18:29.0258 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 12:18:29.0258 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 12:18:29.0258 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 12:18:29.0258 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 5.6699ms
+2024-04-25 12:18:29.0258 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 12:18:29.0388 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 12.8694ms
+2024-04-25 12:18:29.0388 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.1019ms
+2024-04-25 12:18:29.1341 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 12:18:29.1562 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2024-04-25 12:18:29.1620 ${level} Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-25 12:18:29.1620 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 7.4917ms
+2024-04-25 12:18:29.1620 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 33.2598ms
+2024-04-25 12:18:39.0470 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 12:18:39.1045 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:18:39.1255 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 12:18:48.6059 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 9475.1402ms
+2024-04-25 12:18:48.6059 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:18:48.6059 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 12:18:48.8076 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 9760.5367ms
+2024-04-25 12:24:01.4020 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 12:24:01.9162 ${level} Now listening on: https://localhost:7153
+2024-04-25 12:24:01.9162 ${level} Now listening on: http://localhost:5082
+2024-04-25 12:24:01.9162 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 12:24:01.9162 ${level} Hosting environment: Development
+2024-04-25 12:24:01.9162 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 12:24:02.6302 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 12:24:02.8165 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 187.4350ms
+2024-04-25 12:24:02.8165 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 12:24:02.9400 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 116.7707ms
+2024-04-25 12:24:02.9662 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 12:24:02.9662 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 12:24:02.9662 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 12:24:02.9662 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 12:24:02.9662 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 12:24:02.9662 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 4.2784ms
+2024-04-25 12:24:02.9662 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 12:24:02.9662 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 18.6819ms
+2024-04-25 12:24:03.0038 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 12:24:03.0038 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 39.7327ms
+2024-04-25 12:24:03.0346 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 12:24:03.0346 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.0439ms
+2024-04-25 12:24:03.0346 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 70.0277ms
+2024-04-25 12:24:03.2511 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 12:24:03.3802 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 129.0310ms
+2024-04-25 12:24:13.0452 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 12:24:13.0993 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:24:13.1213 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 12:24:14.4912 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 12:24:15.3088 ${level} Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 12:24:15.5549 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 2429.8978ms
+2024-04-25 12:24:15.5549 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:24:15.5549 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 12:24:15.6058 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 2560.6223ms
+2024-04-25 12:26:27.3252 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 12:26:28.4809 ${level} Now listening on: https://localhost:7153
+2024-04-25 12:26:28.4809 ${level} Now listening on: http://localhost:5082
+2024-04-25 12:26:28.4983 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 12:26:28.4983 ${level} Hosting environment: Development
+2024-04-25 12:26:28.4983 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 12:26:31.3906 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 12:26:31.6389 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 12:26:31.6389 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 250.5912ms
+2024-04-25 12:26:31.7525 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 112.2825ms
+2024-04-25 12:26:31.7640 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 12:26:31.7640 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 12:26:31.7640 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 12:26:31.7640 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 12:26:31.7640 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 12:26:31.7640 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 5.2965ms
+2024-04-25 12:26:31.8020 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 12:26:31.8020 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 39.0953ms
+2024-04-25 12:26:31.8262 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 12:26:31.8262 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 70.4534ms
+2024-04-25 12:26:31.8559 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 12:26:31.8559 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 92.5069ms
+2024-04-25 12:26:31.8776 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.6919ms
+2024-04-25 12:26:32.0255 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 12:26:32.2184 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 192.7710ms
+2024-04-25 12:26:44.0206 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 12:26:44.1850 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:26:44.2278 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 12:27:43.9107 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 12:27:45.1972 ${level} Executed DbCommand (57ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 12:27:53.3696 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 69135.2169ms
+2024-04-25 12:27:53.3739 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:27:53.3739 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 12:27:53.5246 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 69503.9314ms
+2024-04-25 12:28:36.0324 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 12:28:36.8988 ${level} Now listening on: https://localhost:7153
+2024-04-25 12:28:36.8988 ${level} Now listening on: http://localhost:5082
+2024-04-25 12:28:36.8988 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 12:28:36.8988 ${level} Hosting environment: Development
+2024-04-25 12:28:36.8988 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 12:28:38.6572 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 12:28:38.9260 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 271.3194ms
+2024-04-25 12:28:38.9260 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 12:28:39.0586 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 129.7715ms
+2024-04-25 12:28:39.0586 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 12:28:39.0586 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 12:28:39.0586 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 12:28:39.0586 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 12:28:39.0586 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 12:28:39.0753 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 6.4981ms
+2024-04-25 12:28:39.0999 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 12:28:39.1219 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 53.9921ms
+2024-04-25 12:28:39.1219 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 12:28:39.1219 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 12:28:39.1348 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 66.3951ms
+2024-04-25 12:28:39.1348 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 66.5628ms
+2024-04-25 12:28:39.1816 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.7081ms
+2024-04-25 12:28:39.3549 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 12:28:39.6463 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 291.4876ms
+2024-04-25 12:28:54.4571 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 12:28:54.5763 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:28:54.6100 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 12:29:04.2864 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 12:29:05.6521 ${level} Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 12:29:40.7154 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 46098.4649ms
+2024-04-25 12:29:40.7154 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:29:40.7334 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 12:29:40.8083 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 46351.2651ms
+2024-04-25 12:29:50.5278 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 12:29:50.5278 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 12:29:50.5278 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 14:39:39.6424 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 14:39:41.5364 ${level} Now listening on: https://localhost:7153
+2024-04-25 14:39:41.5364 ${level} Now listening on: http://localhost:5082
+2024-04-25 14:39:41.5364 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 14:39:41.5364 ${level} Hosting environment: Development
+2024-04-25 14:39:41.5364 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 14:39:43.9395 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 14:39:44.2904 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 353.3084ms
+2024-04-25 14:39:44.2904 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 14:39:44.3832 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 90.5645ms
+2024-04-25 14:39:44.4040 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 14:39:44.4040 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 14:39:44.4040 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 14:39:44.4040 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 14:39:44.4040 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 14:39:44.4040 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.6563ms
+2024-04-25 14:39:44.4269 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 14:39:44.4362 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 32.1352ms
+2024-04-25 14:39:44.4362 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 14:39:44.4458 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 41.2662ms
+2024-04-25 14:39:44.4458 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 14:39:44.4621 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 57.7832ms
+2024-04-25 14:39:44.4877 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.0799ms
+2024-04-25 14:39:44.6960 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 14:39:44.8702 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 174.1895ms
+2024-04-25 14:40:02.2921 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 14:40:02.3623 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 14:40:02.3947 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 14:40:04.4962 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 14:40:05.4761 ${level} Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 14:40:05.7915 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 3392.1691ms
+2024-04-25 14:40:05.7915 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 14:40:05.8003 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 14:40:05.9943 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 3702.2869ms
+2024-04-25 14:44:19.1403 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 14:44:19.1403 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 13.3173ms
+2024-04-25 14:44:19.1852 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 14:44:19.1852 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 14:44:19.1852 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 14:44:19.1852 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 14:44:19.1852 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 6.3189ms
+2024-04-25 14:44:19.1852 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 7.3757ms
+2024-04-25 14:44:19.1961 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.1450ms
+2024-04-25 14:44:19.5063 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 14:44:19.5180 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2024-04-25 14:44:19.5180 ${level} Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-25 14:44:19.5180 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 2.1293ms
+2024-04-25 14:44:19.5180 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 15.2088ms
+2024-04-25 14:44:31.1970 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 14:44:31.1970 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 4.2667ms
+2024-04-25 14:44:31.1970 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 14:44:31.1970 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 3.3185ms
+2024-04-25 14:44:31.2358 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 14:44:31.2358 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 14:44:31.2358 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 14:44:31.2358 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 14:44:31.2358 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 14:44:31.2358 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 14:44:31.2442 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 8.3047ms
+2024-04-25 14:44:31.2442 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 12.5994ms
+2024-04-25 14:44:31.2442 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 14:44:31.2632 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 26.0804ms
+2024-04-25 14:44:31.2632 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.6556ms
+2024-04-25 14:44:31.2632 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 14:44:31.2632 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 38.2195ms
+2024-04-25 14:44:31.6725 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 14:44:31.6900 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 17.2476ms
+2024-04-25 14:44:44.1429 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 14:44:44.1598 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 14:44:44.1598 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 14:44:44.1748 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 14:44:44.1969 ${level} Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 14:44:44.1969 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 40.1573ms
+2024-04-25 14:44:44.1969 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 14:44:44.1969 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 14:44:44.1969 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 62.9693ms
+2024-04-25 14:47:09.1397 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 14:47:10.6156 ${level} Now listening on: https://localhost:7153
+2024-04-25 14:47:10.6156 ${level} Now listening on: http://localhost:5082
+2024-04-25 14:47:10.6156 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 14:47:10.6156 ${level} Hosting environment: Development
+2024-04-25 14:47:10.6221 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 14:47:10.8286 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 14:47:11.0469 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 219.2517ms
+2024-04-25 14:47:11.0469 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 14:47:11.1151 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 63.7358ms
+2024-04-25 14:47:11.1274 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 14:47:11.1274 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 14:47:11.1274 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 14:47:11.1274 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 14:47:11.1274 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 14:47:11.1274 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.0026ms
+2024-04-25 14:47:11.1498 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 14:47:11.1498 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 14:47:11.1498 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 14:47:11.1498 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 24.9057ms
+2024-04-25 14:47:11.1498 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 25.1080ms
+2024-04-25 14:47:11.1498 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 25.6148ms
+2024-04-25 14:47:11.1661 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.4983ms
+2024-04-25 14:47:11.3413 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 14:47:11.4336 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.3474ms
+2024-04-25 14:47:20.4386 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 14:47:20.4889 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 14:47:20.5139 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 14:47:22.3653 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 14:47:23.2677 ${level} Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 14:47:23.5785 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 3059.8556ms
+2024-04-25 14:47:23.5785 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 14:47:23.5785 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 14:47:23.7207 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 3282.0938ms
+2024-04-25 15:02:02.4745 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 15:02:02.9703 ${level} Now listening on: https://localhost:7153
+2024-04-25 15:02:02.9703 ${level} Now listening on: http://localhost:5082
+2024-04-25 15:02:02.9703 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 15:02:02.9703 ${level} Hosting environment: Development
+2024-04-25 15:02:02.9703 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 15:02:03.4515 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 15:02:03.6102 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 159.7595ms
+2024-04-25 15:02:03.6102 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 15:02:03.6855 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 69.8688ms
+2024-04-25 15:02:03.6987 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 15:02:03.6987 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 15:02:03.6987 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 15:02:03.6987 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 15:02:03.6987 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 15:02:03.6987 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.8981ms
+2024-04-25 15:02:03.7288 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 15:02:03.7288 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 15:02:03.7288 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 15:02:03.7311 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 32.3971ms
+2024-04-25 15:02:03.7311 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 32.0462ms
+2024-04-25 15:02:03.7311 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 32.3114ms
+2024-04-25 15:02:03.7479 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.8092ms
+2024-04-25 15:02:03.9526 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 15:02:04.0783 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.6051ms
+2024-04-25 15:02:16.9020 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 15:02:16.9460 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 15:02:16.9681 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 15:02:18.3186 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 15:02:18.9388 ${level} Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 15:02:19.1529 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 2178.6389ms
+2024-04-25 15:02:19.1529 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 15:02:19.1529 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 15:02:19.2129 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 2310.9109ms
+2024-04-25 15:39:16.0684 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 15:39:16.5782 ${level} Now listening on: https://localhost:7153
+2024-04-25 15:39:16.5782 ${level} Now listening on: http://localhost:5082
+2024-04-25 15:39:16.5782 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 15:39:16.5782 ${level} Hosting environment: Development
+2024-04-25 15:39:16.5782 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 15:39:17.1587 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 15:39:17.3336 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 176.2461ms
+2024-04-25 15:39:17.3336 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 15:39:17.4059 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 67.4301ms
+2024-04-25 15:39:17.4238 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 15:39:17.4238 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 15:39:17.4238 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 15:39:17.4238 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 15:39:17.4238 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 15:39:17.4238 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.3983ms
+2024-04-25 15:39:17.4509 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 15:39:17.4509 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 15:39:17.4518 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 15:39:17.4518 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 29.2014ms
+2024-04-25 15:39:17.4518 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 29.6251ms
+2024-04-25 15:39:17.4518 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 29.4187ms
+2024-04-25 15:39:17.4687 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.5036ms
+2024-04-25 15:39:17.6858 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 15:39:17.8098 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.0428ms
+2024-04-25 15:39:43.7654 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 15:39:43.8333 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 15:39:43.8560 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 15:39:45.1225 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 15:39:45.8033 ${level} Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 15:39:46.0317 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 2170.9319ms
+2024-04-25 15:39:46.0317 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 15:39:46.0317 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 15:39:46.1003 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 2334.8488ms
+2024-04-25 15:44:39.8082 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 15:44:40.2746 ${level} Now listening on: https://localhost:7153
+2024-04-25 15:44:40.2746 ${level} Now listening on: http://localhost:5082
+2024-04-25 15:44:40.2746 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 15:44:40.2746 ${level} Hosting environment: Development
+2024-04-25 15:44:40.2746 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 15:44:40.9459 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 15:44:41.1147 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 170.2858ms
+2024-04-25 15:44:41.1207 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 15:44:41.1886 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 67.8963ms
+2024-04-25 15:44:41.2002 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 15:44:41.2002 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 15:44:41.2002 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 15:44:41.2002 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 15:44:41.2002 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 15:44:41.2002 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 6.2714ms
+2024-04-25 15:44:41.2315 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 15:44:41.2315 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 15:44:41.2315 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 15:44:41.2315 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 33.5095ms
+2024-04-25 15:44:41.2315 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 33.3122ms
+2024-04-25 15:44:41.2315 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 33.4887ms
+2024-04-25 15:44:41.2496 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.2122ms
+2024-04-25 15:44:41.4733 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 15:44:41.5890 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.7568ms
+2024-04-25 15:47:28.1850 ${level} Request starting HTTP/2 GET https://localhost:7153/api/User/GetAllData - -
+2024-04-25 15:47:28.2425 ${level} Executing endpoint 'FundooNotesApp.Controllers.UserController.GetAllUsers (FundooNotesApp)'
+2024-04-25 15:47:28.2531 ${level} Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllUsers() on controller FundooNotesApp.Controllers.UserController (FundooNotesApp).
+2024-04-25 15:47:29.3077 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 15:47:29.9891 ${level} Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [UserTable] AS [u]
+2024-04-25 15:47:30.0839 ${level} Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-25 15:47:30.1004 ${level} Executed action FundooNotesApp.Controllers.UserController.GetAllUsers (FundooNotesApp) in 1841.4357ms
+2024-04-25 15:47:30.1004 ${level} Executed endpoint 'FundooNotesApp.Controllers.UserController.GetAllUsers (FundooNotesApp)'
+2024-04-25 15:47:30.1066 ${level} Request finished HTTP/2 GET https://localhost:7153/api/User/GetAllData - - - 200 - application/json;+charset=utf-8 1921.5630ms
+2024-04-25 16:06:34.2327 ${level} Request starting HTTP/2 POST https://localhost:7153/api/User/Login application/json 72
+2024-04-25 16:06:34.2434 ${level} Executing endpoint 'FundooNotesApp.Controllers.UserController.LoginUser (FundooNotesApp)'
+2024-04-25 16:06:34.2698 ${level} Route matched with {action = "LoginUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginUser(CommonLayer.Model.UserLoginModel) on controller FundooNotesApp.Controllers.UserController (FundooNotesApp).
+2024-04-25 16:06:34.4380 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 16:06:34.6293 ${level} Executed DbCommand (53ms) [Parameters=[@__8__locals1_user_Email_0='?' (Size = 4000), @__encodePassword_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [UserTable] AS [u]
+WHERE ([u].[Email] = @__8__locals1_user_Email_0) AND ([u].[Password] = @__encodePassword_1)
+2024-04-25 16:06:34.7712 ${level} Executing OkObjectResult, writing value of type 'CommonLayer.Model.ResponseModel`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-25 16:06:34.7712 ${level} Executed action FundooNotesApp.Controllers.UserController.LoginUser (FundooNotesApp) in 503.679ms
+2024-04-25 16:06:34.7712 ${level} Executed endpoint 'FundooNotesApp.Controllers.UserController.LoginUser (FundooNotesApp)'
+2024-04-25 16:06:34.7712 ${level} Request finished HTTP/2 POST https://localhost:7153/api/User/Login application/json 72 - 200 - application/json;+charset=utf-8 543.1492ms
+2024-04-25 16:10:56.3332 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 16:10:56.7854 ${level} Now listening on: https://localhost:7153
+2024-04-25 16:10:56.7854 ${level} Now listening on: http://localhost:5082
+2024-04-25 16:10:56.7854 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 16:10:56.7854 ${level} Hosting environment: Development
+2024-04-25 16:10:56.7854 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 16:10:57.3653 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 16:10:57.5431 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 178.8728ms
+2024-04-25 16:10:57.5553 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 16:10:57.6361 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 80.6874ms
+2024-04-25 16:10:57.6508 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 16:10:57.6508 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 16:10:57.6508 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 16:10:57.6508 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 16:10:57.6508 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 16:10:57.6508 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.2529ms
+2024-04-25 16:10:57.6796 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 16:10:57.6796 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 16:10:57.6876 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 35.3702ms
+2024-04-25 16:10:57.6876 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 36.8058ms
+2024-04-25 16:10:57.6995 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 16:10:57.6995 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 49.0582ms
+2024-04-25 16:10:57.7269 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 74.8015ms
+2024-04-25 16:10:57.9970 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 16:10:58.1222 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.2365ms
+2024-04-25 16:11:06.2478 ${level} Request starting HTTP/2 GET https://localhost:7153/api/Notes/Redis - -
+2024-04-25 16:11:06.2960 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 16:11:06.3215 ${level} Route matched with {action = "GetAllNotesUsiingRedisCache", controller = "Notes"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllNotesUsiingRedisCache() on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 16:11:07.6337 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 16:11:08.2090 ${level} Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+2024-04-25 16:11:08.4177 ${level} Executed action FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp) in 2091.3097ms
+2024-04-25 16:11:08.4177 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.GetAllNotesUsiingRedisCache (FundooNotesApp)'
+2024-04-25 16:11:08.4177 ${level} An unhandled exception has occurred while executing the request.
+2024-04-25 16:11:08.4698 ${level} Request finished HTTP/2 GET https://localhost:7153/api/Notes/Redis - - - 500 - text/plain;+charset=utf-8 2222.0440ms
+2024-04-25 17:20:23.4165 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 17:20:23.9027 ${level} Now listening on: https://localhost:7153
+2024-04-25 17:20:23.9027 ${level} Now listening on: http://localhost:5082
+2024-04-25 17:20:23.9055 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 17:20:23.9055 ${level} Hosting environment: Development
+2024-04-25 17:20:23.9055 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 17:20:24.6453 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 17:20:24.8375 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 193.9855ms
+2024-04-25 17:20:24.8375 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 17:20:24.9329 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 88.5501ms
+2024-04-25 17:20:24.9602 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 17:20:24.9602 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 17:20:24.9602 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 17:20:24.9602 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 17:20:24.9602 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 17:20:24.9652 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 4.5841ms
+2024-04-25 17:20:25.0025 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 17:20:25.0025 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 17:20:25.0025 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 17:20:25.0025 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 44.4984ms
+2024-04-25 17:20:25.0025 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 44.5426ms
+2024-04-25 17:20:25.0025 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 44.5795ms
+2024-04-25 17:20:25.0225 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.7162ms
+2024-04-25 17:20:25.3091 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 17:20:25.4360 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.9373ms
+2024-04-25 17:24:13.1874 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 17:24:13.6321 ${level} Now listening on: https://localhost:7153
+2024-04-25 17:24:13.6321 ${level} Now listening on: http://localhost:5082
+2024-04-25 17:24:13.6349 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 17:24:13.6349 ${level} Hosting environment: Development
+2024-04-25 17:24:13.6349 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 17:24:14.1697 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 17:24:14.3947 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 227.0674ms
+2024-04-25 17:24:14.4081 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 17:24:14.4081 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 17:24:14.4081 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 17:24:14.4081 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.8096ms
+2024-04-25 17:24:14.4214 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 17:24:14.4214 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 13.9943ms
+2024-04-25 17:24:14.4442 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.9855ms
+2024-04-25 17:24:14.7079 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 17:24:14.7309 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2024-04-25 17:24:14.7324 ${level} Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-25 17:24:14.7324 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 2.4590ms
+2024-04-25 17:24:14.8308 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.8928ms
+2024-04-25 17:24:22.0951 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 17:24:22.0951 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 4.7769ms
+2024-04-25 17:24:22.1305 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 17:24:22.1305 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 17:24:22.1305 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 17:24:22.1483 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 17.4146ms
+2024-04-25 17:24:22.1524 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 17:24:22.1524 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 23.7882ms
+2024-04-25 17:24:22.1524 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.1686ms
+2024-04-25 17:24:22.2476 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 17:24:22.2623 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2024-04-25 17:24:22.2623 ${level} Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-25 17:24:22.2623 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 3.1749ms
+2024-04-25 17:24:22.2623 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 27.0295ms
+2024-04-25 17:24:53.8271 ${level} Request starting HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 71
+2024-04-25 17:24:53.8777 ${level} Executing endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 17:24:53.9037 ${level} Route matched with {action = "UserLoginMethod", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginMethod(CommonLayer.Model.UserLoginModel) on controller FundooNotesApp.Controllers.UserController (FundooNotesApp).
+2024-04-25 17:24:55.1526 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 17:24:55.9419 ${level} Executed DbCommand (66ms) [Parameters=[@__login_Email_0='?' (Size = 4000), @__encodePassword_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [UserTable] AS [u]
+WHERE ([u].[Email] = @__login_Email_0) AND ([u].[Password] = @__encodePassword_1)
+2024-04-25 17:24:55.9712 ${level} Executing BadRequestObjectResult, writing value of type 'CommonLayer.Model.ResponseModel`1[[CommonLayer.UserModel.TokenModel, CommonLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-25 17:24:55.9712 ${level} Executed action FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp) in 2069.8432ms
+2024-04-25 17:24:55.9712 ${level} Executed endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 17:24:55.9712 ${level} Request finished HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 71 - 400 - application/json;+charset=utf-8 2155.8301ms
+2024-04-25 17:28:42.7553 ${level} Request starting HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 71
+2024-04-25 17:28:42.7791 ${level} Executing endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 17:28:42.7791 ${level} Route matched with {action = "UserLoginMethod", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginMethod(CommonLayer.Model.UserLoginModel) on controller FundooNotesApp.Controllers.UserController (FundooNotesApp).
+2024-04-25 17:28:42.7947 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 17:28:42.8295 ${level} Executed DbCommand (10ms) [Parameters=[@__login_Email_0='?' (Size = 4000), @__encodePassword_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [UserTable] AS [u]
+WHERE ([u].[Email] = @__login_Email_0) AND ([u].[Password] = @__encodePassword_1)
+2024-04-25 17:28:42.8295 ${level} Executing BadRequestObjectResult, writing value of type 'CommonLayer.Model.ResponseModel`1[[CommonLayer.UserModel.TokenModel, CommonLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-25 17:28:42.8295 ${level} Executed action FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp) in 51.9672ms
+2024-04-25 17:28:42.8295 ${level} Executed endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 17:28:42.8295 ${level} Request finished HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 71 - 400 - application/json;+charset=utf-8 78.8203ms
+2024-04-25 17:29:33.7721 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 17:29:35.5716 ${level} Now listening on: https://localhost:7153
+2024-04-25 17:29:35.5716 ${level} Now listening on: http://localhost:5082
+2024-04-25 17:29:35.5716 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 17:29:35.5716 ${level} Hosting environment: Development
+2024-04-25 17:29:35.5716 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 17:29:36.6353 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 17:29:37.3209 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 687.2893ms
+2024-04-25 17:29:37.3209 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 17:29:37.4449 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 121.1970ms
+2024-04-25 17:29:37.4449 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 17:29:37.4449 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 17:29:37.4449 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 17:29:37.4449 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 17:29:37.4449 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 17:29:37.4449 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 6.4115ms
+2024-04-25 17:29:37.5210 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 17:29:37.5210 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 17:29:37.5299 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 74.2454ms
+2024-04-25 17:29:37.5299 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 74.8118ms
+2024-04-25 17:29:37.5299 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 17:29:37.5299 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 82.9671ms
+2024-04-25 17:29:37.5650 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 108.8497ms
+2024-04-25 17:29:37.7130 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 17:29:37.9034 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 190.5239ms
+2024-04-25 17:30:28.4888 ${level} Request starting HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 72
+2024-04-25 17:30:28.6464 ${level} Executing endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 17:30:28.7029 ${level} Route matched with {action = "UserLoginMethod", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginMethod(CommonLayer.Model.UserLoginModel) on controller FundooNotesApp.Controllers.UserController (FundooNotesApp).
+2024-04-25 17:31:17.8036 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 17:31:19.3769 ${level} Executed DbCommand (123ms) [Parameters=[@__login_Email_0='?' (Size = 4000), @__encodePassword_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [UserTable] AS [u]
+WHERE ([u].[Email] = @__login_Email_0) AND ([u].[Password] = @__encodePassword_1)
+2024-04-25 17:32:37.2715 ${level} Executing OkObjectResult, writing value of type 'CommonLayer.Model.ResponseModel`1[[CommonLayer.UserModel.TokenModel, CommonLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-25 17:32:37.4284 ${level} Executed action FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp) in 128702.5719ms
+2024-04-25 17:32:37.4284 ${level} Executed endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 17:32:37.4486 ${level} Request finished HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 72 - 200 - application/json;+charset=utf-8 128959.7230ms
+2024-04-25 17:37:59.7365 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 17:38:00.2249 ${level} Now listening on: https://localhost:7153
+2024-04-25 17:38:00.2249 ${level} Now listening on: http://localhost:5082
+2024-04-25 17:38:00.2249 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 17:38:00.2249 ${level} Hosting environment: Development
+2024-04-25 17:38:00.2249 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 17:38:00.7275 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 17:38:00.8783 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 152.0084ms
+2024-04-25 17:38:00.8783 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 17:38:00.9498 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 66.3263ms
+2024-04-25 17:38:00.9498 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 17:38:00.9498 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 17:38:00.9498 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 17:38:00.9498 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 17:38:00.9498 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 17:38:00.9697 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.7970ms
+2024-04-25 17:38:00.9930 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 17:38:00.9930 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 17:38:00.9930 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 17:38:00.9930 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 30.0725ms
+2024-04-25 17:38:00.9930 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 30.2976ms
+2024-04-25 17:38:00.9930 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 30.9206ms
+2024-04-25 17:38:01.0129 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.9735ms
+2024-04-25 17:38:01.2247 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 17:38:01.3579 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.1787ms
+2024-04-25 17:38:32.8352 ${level} Request starting HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 72
+2024-04-25 17:38:32.8816 ${level} Executing endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 17:38:32.9087 ${level} Route matched with {action = "UserLoginMethod", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginMethod(CommonLayer.Model.UserLoginModel) on controller FundooNotesApp.Controllers.UserController (FundooNotesApp).
+2024-04-25 17:38:34.1140 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 17:38:34.8599 ${level} Executed DbCommand (60ms) [Parameters=[@__login_Email_0='?' (Size = 4000), @__encodePassword_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [UserTable] AS [u]
+WHERE ([u].[Email] = @__login_Email_0) AND ([u].[Password] = @__encodePassword_1)
+2024-04-25 17:38:35.0855 ${level} Executing OkObjectResult, writing value of type 'CommonLayer.Model.ResponseModel`1[[CommonLayer.UserModel.TokenModel, CommonLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-25 17:38:35.0947 ${level} Executed action FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp) in 2181.4011ms
+2024-04-25 17:38:35.0947 ${level} Executed endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 17:38:35.1031 ${level} Request finished HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 72 - 200 - application/json;+charset=utf-8 2267.7900ms
+2024-04-25 18:23:27.0044 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 18:23:27.6363 ${level} Now listening on: https://localhost:7153
+2024-04-25 18:23:27.6363 ${level} Now listening on: http://localhost:5082
+2024-04-25 18:23:27.6363 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 18:23:27.6363 ${level} Hosting environment: Development
+2024-04-25 18:23:27.6363 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 18:23:28.0604 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 18:23:28.2972 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 238.0326ms
+2024-04-25 18:23:28.2972 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 18:23:28.3788 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 74.9359ms
+2024-04-25 18:23:28.3945 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 18:23:28.3945 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 18:23:28.3945 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 18:23:28.3945 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 18:23:28.3945 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 18:23:28.3945 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.3865ms
+2024-04-25 18:23:28.4232 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 18:23:28.4232 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 30.4305ms
+2024-04-25 18:23:28.4232 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 18:23:28.4232 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 31.0058ms
+2024-04-25 18:23:28.4384 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.4107ms
+2024-04-25 18:23:28.4384 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 18:23:28.4384 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 49.3616ms
+2024-04-25 18:23:28.6235 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 18:23:28.7961 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.5947ms
+2024-04-25 18:27:52.4272 ${level} Request starting HTTP/2 POST https://localhost:7153/api/Notes/AddImage?notesId=4 multipart/form-data;+boundary=----WebKitFormBoundary7mnlybTF7Jg9cpqH 10807
+2024-04-25 18:27:52.6639 ${level} Failed to validate the token.
+2024-04-25 18:27:52.6639 ${level} Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: 'System.String'. Did not match: validationParameters.ValidAudience: 'System.String' or validationParameters.ValidAudiences: 'System.String'.
+2024-04-25 18:27:52.6728 ${level} Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-25 18:27:52.6858 ${level} AuthenticationScheme: Bearer was challenged.
+2024-04-25 18:27:52.6858 ${level} Request finished HTTP/2 POST https://localhost:7153/api/Notes/AddImage?notesId=4 multipart/form-data;+boundary=----WebKitFormBoundary7mnlybTF7Jg9cpqH 10807 - 401 0 - 259.5309ms
+2024-04-25 18:28:45.2568 ${level} Request starting HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 73
+2024-04-25 18:28:45.2659 ${level} Failed to validate the token.
+2024-04-25 18:28:45.2659 ${level} Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: 'System.String'. Did not match: validationParameters.ValidAudience: 'System.String' or validationParameters.ValidAudiences: 'System.String'.
+2024-04-25 18:28:45.2659 ${level} Executing endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 18:28:45.3136 ${level} Route matched with {action = "UserLoginMethod", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginMethod(CommonLayer.Model.UserLoginModel) on controller FundooNotesApp.Controllers.UserController (FundooNotesApp).
+2024-04-25 18:28:46.6959 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 18:28:47.5047 ${level} Executed DbCommand (48ms) [Parameters=[@__login_Email_0='?' (Size = 4000), @__encodePassword_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [UserTable] AS [u]
+WHERE ([u].[Email] = @__login_Email_0) AND ([u].[Password] = @__encodePassword_1)
+2024-04-25 18:28:47.5271 ${level} Executing BadRequestObjectResult, writing value of type 'CommonLayer.Model.ResponseModel`1[[CommonLayer.UserModel.TokenModel, CommonLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-25 18:28:47.5350 ${level} Executed action FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp) in 2216.4565ms
+2024-04-25 18:28:47.5350 ${level} Executed endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 18:28:47.5408 ${level} Request finished HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 73 - 400 - application/json;+charset=utf-8 2284.0196ms
+2024-04-25 18:29:21.2148 ${level} User profile is available. Using 'C:\Users\Ramanjaneyareddy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-25 18:29:21.8061 ${level} Now listening on: https://localhost:7153
+2024-04-25 18:29:21.8061 ${level} Now listening on: http://localhost:5082
+2024-04-25 18:29:21.8087 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-25 18:29:21.8087 ${level} Hosting environment: Development
+2024-04-25 18:29:21.8087 ${level} Content root path: C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\FundooNotesApp\
+2024-04-25 18:29:22.3973 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2024-04-25 18:29:22.5781 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 182.1434ms
+2024-04-25 18:29:22.5781 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 18:29:22.6606 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 77.4482ms
+2024-04-25 18:29:22.6788 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 18:29:22.6788 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2024-04-25 18:29:22.6788 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2024-04-25 18:29:22.6788 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 18:29:22.6788 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 18:29:22.6827 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 3.4375ms
+2024-04-25 18:29:22.7053 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 18:29:22.7053 ${level} Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-25 18:29:22.7053 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 29.0827ms
+2024-04-25 18:29:22.7053 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 29.3247ms
+2024-04-25 18:29:22.7139 ${level} Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-25 18:29:22.7139 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 36.7031ms
+2024-04-25 18:29:22.7324 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.1801ms
+2024-04-25 18:29:22.9565 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 18:29:23.1015 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.0233ms
+2024-04-25 18:29:50.7222 ${level} Request starting HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 72
+2024-04-25 18:29:50.7703 ${level} Executing endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 18:29:50.7946 ${level} Route matched with {action = "UserLoginMethod", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UserLoginMethod(CommonLayer.Model.UserLoginModel) on controller FundooNotesApp.Controllers.UserController (FundooNotesApp).
+2024-04-25 18:29:51.9369 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 18:29:52.7118 ${level} Executed DbCommand (57ms) [Parameters=[@__login_Email_0='?' (Size = 4000), @__encodePassword_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [UserTable] AS [u]
+WHERE ([u].[Email] = @__login_Email_0) AND ([u].[Password] = @__encodePassword_1)
+2024-04-25 18:29:52.9121 ${level} Executing OkObjectResult, writing value of type 'CommonLayer.Model.ResponseModel`1[[CommonLayer.UserModel.TokenModel, CommonLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-25 18:29:52.9226 ${level} Executed action FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp) in 2122.3442ms
+2024-04-25 18:29:52.9226 ${level} Executed endpoint 'FundooNotesApp.Controllers.UserController.UserLoginMethod (FundooNotesApp)'
+2024-04-25 18:29:52.9226 ${level} Request finished HTTP/2 POST https://localhost:7153/api/User/UserLoginMethod application/json 72 - 200 - application/json;+charset=utf-8 2205.4655ms
+2024-04-25 18:30:33.2299 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-04-25 18:30:33.2365 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 6.5805ms
+2024-04-25 18:30:33.2677 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2024-04-25 18:30:33.2677 ${level} Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-04-25 18:30:33.2677 ${level} Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-04-25 18:30:33.2677 ${level} Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-25 18:30:33.2677 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 7.7034ms
+2024-04-25 18:30:33.2677 ${level} Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 13764 application/javascript;+charset=utf-8 6.5990ms
+2024-04-25 18:30:33.2856 ${level} Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.8965ms
+2024-04-25 18:30:33.5248 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-04-25 18:30:33.5429 ${level} Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2024-04-25 18:30:33.5429 ${level} Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-25 18:30:33.5429 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 3.1794ms
+2024-04-25 18:30:33.5429 ${level} Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 23.6403ms
+2024-04-25 18:31:03.8693 ${level} Request starting HTTP/2 POST https://localhost:7153/api/Notes/AddImage?notesId=4 multipart/form-data;+boundary=----WebKitFormBoundaryLqHB8HehuWU4VBTn 10807
+2024-04-25 18:31:03.9536 ${level} Executing endpoint 'FundooNotesApp.Controllers.NotesController.AddImage (FundooNotesApp)'
+2024-04-25 18:31:03.9536 ${level} Route matched with {action = "AddImage", controller = "Notes"}. Executing controller action with signature System.Object AddImage(Int64, Microsoft.AspNetCore.Http.IFormFile) on controller FundooNotesApp.Controllers.NotesController (FundooNotesApp).
+2024-04-25 18:31:04.3366 ${level} Entity Framework Core 6.0.0 initialized 'FundooContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-04-25 18:31:04.3719 ${level} Executed DbCommand (21ms) [Parameters=[@__notesId_0='?' (DbType = Int64), @__userId_1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NotesId], [n].[Archive], [n].[Color], [n].[Created], [n].[Description], [n].[Image], [n].[Modified], [n].[PinNotes], [n].[Reminder], [n].[Title], [n].[Trash], [n].[UserId]
+FROM [NotesTable] AS [n]
+WHERE ([n].[NotesId] = @__notesId_0) AND ([n].[UserId] = @__userId_1)
+2024-04-25 18:31:07.7950 ${level} Executed DbCommand (17ms) [Parameters=[@p2='?' (DbType = Int64), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [NotesTable] SET [Image] = @p0, [Modified] = @p1
+WHERE [NotesId] = @p2;
+SELECT @@ROWCOUNT;
+2024-04-25 18:31:07.8186 ${level} Executing OkObjectResult, writing value of type 'CommonLayer.Model.ResponseModel`1[[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-25 18:31:07.8289 ${level} Executed action FundooNotesApp.Controllers.NotesController.AddImage (FundooNotesApp) in 3868.4212ms
+2024-04-25 18:31:07.8289 ${level} Executed endpoint 'FundooNotesApp.Controllers.NotesController.AddImage (FundooNotesApp)'
+2024-04-25 18:31:07.8289 ${level} Request finished HTTP/2 POST https://localhost:7153/api/Notes/AddImage?notesId=4 multipart/form-data;+boundary=----WebKitFormBoundaryLqHB8HehuWU4VBTn 10807 - 200 - application/json;+charset=utf-8 3961.8985ms

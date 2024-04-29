@@ -1,0 +1,17 @@
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.runtimeconfig.json
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\bin\Debug\net6.0\CommonLayer.dll
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\bin\Debug\net6.0\CommonLayer.pdb
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.genruntimeconfig.cache
+C:\Users\Ramanjaneyareddy\source\repos\FundooNotesApp\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll

@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0936A760-610A-4569-BC2E-0813C831DABB}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\repositorylayer\\interface\\iuserrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0936A760-610A-4569-BC2E-0813C831DABB}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iuserrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B2ABF4-3F43-479D-9E92-2550FC1A3EC6}|LogicLayer\\LogicLayer.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\logiclayer\\interface\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B2ABF4-3F43-479D-9E92-2550FC1A3EC6}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\interface\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B2ABF4-3F43-479D-9E92-2550FC1A3EC6}|LogicLayer\\LogicLayer.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\logiclayer\\service\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B2ABF4-3F43-479D-9E92-2550FC1A3EC6}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\service\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0936A760-610A-4569-BC2E-0813C831DABB}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\repositorylayer\\service\\notesrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0936A760-610A-4569-BC2E-0813C831DABB}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\service\\notesrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B2ABF4-3F43-479D-9E92-2550FC1A3EC6}|LogicLayer\\LogicLayer.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\logiclayer\\interface\\inotesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B2ABF4-3F43-479D-9E92-2550FC1A3EC6}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\interface\\inotesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85B2ABF4-3F43-479D-9E92-2550FC1A3EC6}|LogicLayer\\LogicLayer.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\logiclayer\\service\\notesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85B2ABF4-3F43-479D-9E92-2550FC1A3EC6}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\service\\notesbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0936A760-610A-4569-BC2E-0813C831DABB}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\repositorylayer\\interface\\inotesrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0936A760-610A-4569-BC2E-0813C831DABB}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\inotesrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C7A4EF-E7FB-4A91-8B51-B190F059E3AA}|FundooNotesApp\\FundooNotesApp.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\fundoonotesapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C7A4EF-E7FB-4A91-8B51-B190F059E3AA}|FundooNotesApp\\FundooNotesApp.csproj|solutionrelative:fundoonotesapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C7A4EF-E7FB-4A91-8B51-B190F059E3AA}|FundooNotesApp\\FundooNotesApp.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\fundoonotesapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C7A4EF-E7FB-4A91-8B51-B190F059E3AA}|FundooNotesApp\\FundooNotesApp.csproj|solutionrelative:fundoonotesapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C7A4EF-E7FB-4A91-8B51-B190F059E3AA}|FundooNotesApp\\FundooNotesApp.csproj|c:\\users\\ramanjaneyareddy\\source\\repos\\fundoonotesapp\\fundoonotesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C7A4EF-E7FB-4A91-8B51-B190F059E3AA}|FundooNotesApp\\FundooNotesApp.csproj|solutionrelative:fundoonotesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FundooNotesApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FundooNotesApp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAFYBAAAAAAAAAAAqwGIBAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:20:44.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Program.cs",
+              "RelativeDocumentMoniker": "FundooNotesApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Program.cs",
+              "RelativeToolTip": "FundooNotesApp\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAH8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T12:03:12.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "INotesRL.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interface\\INotesRL.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\INotesRL.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interface\\INotesRL.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\INotesRL.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAywB0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T11:10:11.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "FundooNotesApp\\Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\FundooNotesApp\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "FundooNotesApp\\Controllers\\NotesController.cs",
+              "ViewState": "AQIAAAECAAAAAAAAAAAuwCgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T11:09:31.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotesBL.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\LogicLayer\\Service\\NotesBL.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\Service\\NotesBL.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\LogicLayer\\Service\\NotesBL.cs",
+              "RelativeToolTip": "LogicLayer\\Service\\NotesBL.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAAAIwNwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:19:51.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "INotesBL.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\LogicLayer\\Interface\\INotesBL.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\Interface\\INotesBL.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\LogicLayer\\Interface\\INotesBL.cs",
+              "RelativeToolTip": "LogicLayer\\Interface\\INotesBL.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA0wB0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:19:53.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotesRL.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Service\\NotesRL.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Service\\NotesRL.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Service\\NotesRL.cs",
+              "RelativeToolTip": "RepositoryLayer\\Service\\NotesRL.cs",
+              "ViewState": "AQIAALsBAAAAAAAAAAAkwMMBAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:19:47.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserBL.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\LogicLayer\\Service\\UserBL.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\Service\\UserBL.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\LogicLayer\\Service\\UserBL.cs",
+              "RelativeToolTip": "LogicLayer\\Service\\UserBL.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAuwNsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:16:07.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserBL.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\LogicLayer\\Interface\\IUserBL.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\Interface\\IUserBL.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\LogicLayer\\Interface\\IUserBL.cs",
+              "RelativeToolTip": "LogicLayer\\Interface\\IUserBL.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwCEAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:18:25.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserRL.cs",
+              "DocumentMoniker": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interface\\IUserRL.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IUserRL.cs",
+              "ToolTip": "C:\\Users\\Ramanjaneyareddy\\source\\repos\\FundooNotesApp\\RepositoryLayer\\Interface\\IUserRL.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IUserRL.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:18:22.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
